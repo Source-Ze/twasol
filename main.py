@@ -4,7 +4,8 @@ from telebot.types import *
 from time import sleep, time
 import sqlite3, requests, os
 my_id = ("6673736816")
-bot = TeleBot(Config.TG_BOT_TOKEN)
+TOKEN = "6769330223:AAFSkfJuo15wKnZYpTmqLMgq_mlPyyo2cXk"
+bot = TeleBot(TOKEN)
 db = sqlite3.connect("saite.db", check_same_thread=False)
 cr = db.cursor()
 import threading
